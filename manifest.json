@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "A Chrome extension developed with TypeScript",
+  "permissions": ["proxy", "cookies", "webRequest"],
+  "background": {
+    "scripts": ["dist/background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  }
+}
+

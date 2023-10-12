@@ -1,0 +1,21 @@
+{
+  "name": "my-extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension developed with TypeScript",
+  "main": "dist/background.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "chrome-extension"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.246",
+    "@types/node": "^20.8.4",
+    "node": "^20.7.0",
+    "typescript": "^5.2.2"
+  }
+}
